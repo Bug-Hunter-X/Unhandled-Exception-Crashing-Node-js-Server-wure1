@@ -1,0 +1,3 @@
+# Node.js Unhandled Exception Handling
+
+This repository demonstrates a common issue in Node.js applications: unhandled exceptions crashing the server.  The `server.js` file shows a server that crashes after 5 seconds due to an unhandled exception.  The solution, in `serverSolution.js`, demonstrates how to gracefully handle these exceptions using the `process.on('uncaughtException')` event listener.
